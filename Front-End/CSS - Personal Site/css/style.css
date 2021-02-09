@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  transition: color 5s,font-size 2s;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+h1:hover{
+  cursor: pointer;
+  color: blue;
+  font-size: 6rem;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.bottom-container{
+  padding-top: 50px;
+  background-color: #66BFBF;
+  padding-bottom: 30px;
+}
+.pro{
+  text-decoration: underline;
+  visibility:inherit;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.computer{
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+hr{
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+}
+.programmer{
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row img{
+  width: 25%;
+}
+.chill{
+  float: right;
+  margin-left: 30px;
+}
+.computer-info{
+  clear: left;
+}
+.myButton {
+  margin-top: 50px;
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyrig{
+  color: #EAF6F6;
+}

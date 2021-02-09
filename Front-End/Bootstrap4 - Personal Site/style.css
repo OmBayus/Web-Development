@@ -1,0 +1,11 @@
+.me{
+  width: 60px;
+  height: 60px;
+}
+.container{
+  text-align: center;
+}
+.computer,.chillies{
+  max-width: 120px;
+  height: 120px;
+}
